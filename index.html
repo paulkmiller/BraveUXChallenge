@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Brave UX Challenge</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="modal">
+    <div class="topnav">
+      <div class="top-left">
+        <h3>The Brave UX App</h3>
+      </div>
+      <div class="top-right">
+        <p>Menu</p>
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-body">
+      <div class="offscreen-menu">
+        <ul>
+          <li>Dashboard</li>
+          <li>My Profile</li>
+          <li>Settings</li>
+          <li>Help</li>
+          <li>About</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+      <div id="login">
+        <i class="fa fa-5x fa-flag-o"></i>
+        <p>Do NOT bookmark this page.</p>
+        <h2>Login</h2>
+        <form name='form-login'>
+          <div class="user-element">
+            <span>Username</span>
+            <input type="text" id="user">
+          </div>
+
+          <div class="pass-element">
+            <span>Password</span>
+            <input type="password" id="pass">
+            <i class="fa fa-eye blink"></i>
+          </div>
+
+          <input type="submit" value="Login">
+          <a href="help" class="help">Need help?</a>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <p> Powered by BraveUX </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
