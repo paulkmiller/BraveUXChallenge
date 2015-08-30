@@ -1,5 +1,5 @@
 body {
-  background: #F6F9FC;
+  background: #f6f9fc;
   color: #606468;
   font: 87.5%/1.5em 'Open Sans', sans-serif;
   margin: 0 auto;
@@ -9,10 +9,12 @@ body {
 body * {
   box-sizing: border-box; }
 
-#login form.invalid span, #login form.invalid input {
+#login form.invalid span,
+#login form.invalid input {
   border-color: red; }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   outline: 0; }
 
 input {
@@ -24,33 +26,35 @@ input {
 
 .modal {
   overflow-x: hidden;
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
 
 .modal-footer {
   position: absolute;
   bottom: 15px; }
 
-#login, #login h1 {
+#login,
+#login h1 {
   width: 100%;
-  background-color: #EBEFF2;
+  background-color: #ebeff2;
   padding: 23px; }
 
 #login h2 {
   padding: 14px 0; }
 
 #login p {
-  color: #666F73;
-  padding: 14px 0 0 0;
-  font-size: .8em;
+  color: #666f73;
+  padding: 14px 0 0;
+  font-size: 0.8em;
   font-weight: bold; }
 
 #login form {
   margin: auto;
   width: 100%;
   border-radius: 5px;
-  background: #EBEFF2; }
+  background: #ebeff2; }
 
-#login .user-element, #login .pass-element {
+#login .user-element,
+#login .pass-element {
   width: 100%; }
 
 #login .pass-element {
@@ -61,7 +65,7 @@ input {
   top: 7px;
   right: 10px;
   font-size: 1.8em;
-  color: #AFBDC5; }
+  color: #afbdc5; }
 
 .offscreen-menu {
   position: absolute;
@@ -70,8 +74,8 @@ input {
   z-index: 998;
   height: 100%;
   padding: 10px;
-  background-color: #652D90;
-  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.7); }
+  background-color: #652d90;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.7); }
   .offscreen-menu ul {
     list-style-type: none;
     color: #fff; }
@@ -87,8 +91,9 @@ input {
       .offscreen-menu ul li:nth-child(6) {
         margin-top: 30px; }
 
-#login form span, #login form input {
-  border: 2px solid #FFF; }
+#login form span,
+#login form input {
+  border: 2px solid #fff; }
 #login form span {
   border-right: 0;
   line-height: 36px; }
@@ -97,8 +102,8 @@ input {
 
 #login form span {
   background-color: #fff;
-  border-radius: 3px 0px 0px 3px;
-  color: #78909C;
+  border-radius: 3px 0 0 3px;
+  color: #78909c;
   display: block;
   float: left;
   text-align: center;
@@ -107,7 +112,7 @@ input {
 
 #login form input {
   background-color: #fff;
-  border-radius: 0px 3px 3px 0px;
+  border-radius: 0 3px 3px 0;
   color: #a9a9a9;
   margin-bottom: 1em;
   padding: 5px 10px;
@@ -115,7 +120,7 @@ input {
   height: 40px; }
 
 #login form input[type="submit"] {
-  background: #652D90;
+  background: #652d90;
   border: 0;
   width: 35%;
   height: 40px;
@@ -129,36 +134,38 @@ input {
 
 .help {
   float: right;
-  color: #616B76;
+  color: #616b76;
   margin-top: 10px;
   text-decoration: none; }
 
 .topnav {
-  background: #93268F;
+  background: #93268f;
   color: #fff;
   position: relative; }
   .topnav h3 {
     font-weight: lighter;
     font-size: 1em; }
-  .topnav .top-left, .topnav .top-right {
+  .topnav .top-left,
+  .topnav .top-right {
     display: inline-block; }
   .topnav p {
     display: inline-block;
     margin: 15px 0 0 23px;
-    color: #F0E1F1; }
+    color: #f0e1f1; }
   .topnav .top-right {
     position: absolute;
     top: 0;
     right: 0;
     height: 100%;
-    background: #652D90;
+    background: #652d90;
     z-index: 999; }
 
-.topnav, .modal-footer {
+.topnav,
+.modal-footer {
   padding: 0 23px; }
 
 .modal-body {
-  background: #E0E5E8;
+  background: #e0e5e8;
   height: calc(100% - 50px);
   min-height: 620px;
   position: relative; }
